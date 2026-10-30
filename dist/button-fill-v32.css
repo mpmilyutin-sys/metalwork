@@ -6,6 +6,7 @@
 .button-fill::after{content:'';position:absolute;inset:0;border:1px solid var(--fill-outline);border-radius:inherit;pointer-events:none;z-index:2;opacity:0;transition:opacity .22s ease}
 .button-fill:is(:focus-visible,:active,.is-fill-active)::after{opacity:1}
 .button.button-fill>.button-copy,.header-cta.button-fill>.button-copy{position:relative;z-index:1;display:block;width:auto;height:auto;padding:0;margin:0;background:transparent;color:inherit;border-radius:0;line-height:inherit;place-items:normal}
+.button.button-fill:is(:hover,:focus-visible,:active,.is-fill-active)>.button-copy,.header-cta.button-fill:is(:hover,:focus-visible,:active,.is-fill-active)>.button-copy{background:transparent;color:inherit}
 .button.button-fill>.button-disc,.header-cta.button-fill>.button-disc{position:relative;z-index:1;flex-shrink:0;transition:background .22s ease,color .22s ease}
 .button.button-fill:is(:focus-visible,:active,.is-fill-active),.header-cta.button-fill:is(:focus-visible,:active,.is-fill-active){background:var(--fill-base);color:var(--fill-hover-ink);transform:none;border-color:var(--fill-outline);box-shadow:inset 0 0 0 1px var(--fill-outline)}
 .button-fill:is(:focus-visible,:active,.is-fill-active)::before{transform:translate(-50%,-50%) scale(var(--fill-scale,12))}
