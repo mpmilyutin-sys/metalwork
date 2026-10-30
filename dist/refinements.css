@@ -1,0 +1,22 @@
+/* Requested reference treatment: centered banner, pill label, white CTA. */
+.hero.hero-centered{min-height:640px;justify-content:center;background:linear-gradient(rgba(10,12,14,.18),rgba(10,12,14,.24)),url('assets/hero-metalworking-v2.png') center/cover}
+.hero-centered .hero-content{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:74px 6%;width:100%}
+.hero-centered .hero-eyebrow{display:inline-flex;justify-content:center;flex-wrap:wrap;gap:0 5px;max-width:100%;border:1px solid rgba(255,255,255,.8);border-radius:28px;padding:8px 19px;font-size:12px;font-weight:600;line-height:1.6;letter-spacing:.3px;text-transform:none;background:rgba(15,17,19,.12)}
+.hero-centered .hero-eyebrow>span{width:auto;height:auto;background:none;border-radius:0}
+.hero-centered h1{font-size:clamp(42px,4.8vw,70px);font-weight:700;line-height:1.15;letter-spacing:-2.5px;margin:30px 0 38px;max-width:1100px;text-wrap:balance;text-shadow:0 2px 15px #0002}
+.hero-centered .hero-button{background:#fff;color:var(--ink);height:64px;border-radius:36px;padding:6px 6px 6px 29px;gap:24px;min-width:245px;font-size:15px}
+.hero-centered .hero-button>span{background:#eb5b00;color:#fff;width:52px;height:52px}
+.hero-centered .hero-button svg{width:22px;height:22px;stroke-width:1.6}
+.hero-centered .hero-button:hover{background:#fff;transform:translateY(-2px)}
+.hero-centered .hero-button:hover>span{background:#cc4f00}
+/* Smooth convex-to-concave shoulders around the detached circular arrow. */
+.benefit{isolation:isolate}
+.benefit:before{content:'';position:absolute;inset:0;z-index:-1;background:#fff;mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 350' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M24 0H296Q320 0 320 24V262Q320 285 297 285H294C270 285 254 301 254 324V328Q254 350 232 350H24Q0 350 0 326V24Q0 0 24 0Z'/%3E%3C/svg%3E");mask-size:100% 100%;mask-repeat:no-repeat}
+.benefit-content{background:none;mask-image:none;border-radius:0;padding-bottom:72px}
+.benefit .line-icon{width:44px;height:44px;stroke-width:1.4;color:#df5b08}
+.benefit h2{letter-spacing:-.7px;text-wrap:pretty}
+.circle-link{background:#fff;width:52px;height:52px}
+@media(min-width:1600px){.hero.hero-centered{min-height:700px}.hero-centered h1{font-size:76px}}
+@media(max-width:1100px){.hero.hero-centered{min-height:590px}.hero-centered h1{font-size:clamp(40px,5vw,60px)}}
+@media(max-width:800px){.hero.hero-centered{min-height:570px}.hero-centered .hero-content{padding:60px 28px}.hero-centered h1{font-size:44px;letter-spacing:-1.6px}.hero-centered .hero-eyebrow{font-size:10px;padding:7px 14px}.hero-centered .hero-button{width:auto;min-width:235px}}
+@media(max-width:480px){.hero.hero-centered{min-height:590px;background-position:50% center}.hero-centered .hero-content{padding:50px 22px}.hero-centered .hero-eyebrow{font-size:11px;letter-spacing:0;max-width:270px;padding:8px 13px;line-height:1.7}.hero-centered h1{font-size:36px;line-height:1.16;letter-spacing:-1.3px;margin:28px 0 32px;text-wrap:balance}.hero-centered h1 br{display:initial}.hero-centered .hero-button{height:60px;min-width:230px;padding-left:24px;font-size:14px}.hero-centered .hero-button>span{height:48px;width:48px}.benefit h2{font-size:25px}.benefit-content{padding-bottom:74px}}

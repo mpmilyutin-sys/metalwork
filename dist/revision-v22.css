@@ -1,0 +1,8 @@
+.advantages-brand-logo{display:block;margin:12px auto 0;width:min(260px,100%);line-height:0}
+.advantages-brand-logo img{display:block;width:100%;height:auto}
+.process.process-reference{padding-bottom:24px}
+.process-reference+.requirements{padding-top:48px}
+.requirements .text-link{color:#d45100;border-bottom-color:#d45100}
+.requirements .text-link:hover{color:#a83f00;border-bottom-color:#a83f00}
+@media(max-width:800px){.advantages-brand-logo{width:min(240px,100%)}.process.process-reference{padding-bottom:20px}.process-reference+.requirements{padding-top:36px}}
+@media(max-width:480px){.advantages-brand-logo{width:min(220px,100%);margin-top:10px}.process.process-reference{padding-bottom:16px}.process-reference+.requirements{padding-top:32px}}

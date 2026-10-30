@@ -1,0 +1,9 @@
+.header-contact{display:flex;flex-direction:column;gap:7px;flex-shrink:0}
+.header-contact .messenger-links{justify-content:flex-end;gap:13px;padding:0}
+.header-contact .messenger-links a{font-size:13px;font-weight:700;color:#535b63}
+.header-contact .messenger-links a:hover{color:#df5706}
+.header-contact .messenger-links svg{width:15px;height:15px}
+.service-body h3{min-height:108px;font-size:23px;line-height:1.23}
+@media(max-width:1100px){.header{gap:20px}.header-contact .messenger-links a{font-size:12px}.service-body h3{min-height:108px}}
+@media(max-width:800px){.header-contact{margin-left:auto}.header .menu-toggle{margin-left:0}.service-body h3{min-height:128px;font-size:22px}}
+@media(max-width:480px){.header-contact{display:none}.header .menu-toggle{margin-left:auto}.service-body h3{min-height:0;font-size:23px}}

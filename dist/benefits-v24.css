@@ -1,0 +1,2 @@
+/* Four reference icons share a 96px viewBox and a 64px display area. */
+.benefit .benefit-reference-icon{display:block;width:64px;height:64px;object-fit:contain;flex-shrink:0}

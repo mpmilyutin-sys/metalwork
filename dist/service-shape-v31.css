@@ -1,0 +1,10 @@
+.service-media>img{
+  -webkit-mask-image:var(--service-photo-shape);
+  mask-image:var(--service-photo-shape);
+  -webkit-mask-size:100% 100%;
+  mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+  border-radius:17px;
+}
+@media(max-width:480px){.service-media>img{border-radius:15px}}

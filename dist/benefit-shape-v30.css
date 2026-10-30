@@ -1,0 +1,8 @@
+#benefits .benefit::before{
+  -webkit-mask-image:var(--benefit-shape,radial-gradient(circle 38px at right 26px bottom 26px,transparent 37.5px,#000 38px));
+  mask-image:var(--benefit-shape,radial-gradient(circle 38px at right 26px bottom 26px,transparent 37.5px,#000 38px));
+  -webkit-mask-size:100% 100%;
+  mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+}

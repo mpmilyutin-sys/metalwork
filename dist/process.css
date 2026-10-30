@@ -1,0 +1,21 @@
+/* Cooperation steps, following the supplied light reference. */
+.process.process-reference{background:transparent;color:var(--ink);border-radius:0;padding:78px 40px 80px}
+.process-reference .process-heading{text-align:center;max-width:740px;margin:0 auto}
+.process-reference .eyebrow{color:#d45712;border-color:#cbd2d7}
+.process-reference h2{font-size:44px;line-height:1.16;letter-spacing:-1.4px;margin:18px 0 0}
+.process-reference h2 em{display:block}
+.process-reference .steps{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:58px}
+.process-reference .steps article{border-top:0;border-left:1px solid #dce1e4;padding:0 34px;min-width:0}
+.process-reference .steps article:first-child{border-left:0;padding-left:0}
+.process-reference .steps article:last-child{padding-right:0}
+.process-reference .steps article>.process-step{display:block;position:relative;width:max-content;line-height:1;font-size:92px;font-weight:700;letter-spacing:-5px;color:#cdd2d6}
+.process-step strong{font:inherit;font-family:Arial,Helvetica,sans-serif;font-weight:700}
+.process-zero{display:inline-block;position:relative;letter-spacing:0}
+.process-step small{position:absolute;left:0;width:100%;top:50%;transform:translateY(-50%);font-family:'Trebuchet MS',Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:1px;color:#ed600a;background:var(--paper);padding:3px 0;line-height:1;text-align:center}
+.process-reference .steps h3{font-size:20px;font-weight:700;line-height:1.3;letter-spacing:-.5px;margin:24px 0 13px;min-height:52px}
+.process-reference .steps p{font-size:14px;line-height:1.75;color:#737a80;max-width:240px;margin:0}
+.process-reference .process-note{border-top:0;padding-top:0;margin-top:46px;gap:9px;font-size:14px;color:var(--ink);line-height:1.6;flex-wrap:wrap}
+.process-reference .process-note a{display:inline;color:#df5706;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1100px){.process.process-reference{padding:70px 26px}.process-reference .steps article{padding-left:24px;padding-right:24px}.process-reference h2{font-size:40px}.process-reference .steps h3{font-size:18px}.process-reference .steps p{font-size:13px}}
+@media(max-width:800px){.process.process-reference{padding:62px 26px}.process-reference .steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:38px;margin-top:44px}.process-reference .steps article:nth-child(3){border-left:0;padding-left:0}.process-reference .steps article:nth-child(even){padding-right:0}.process-reference .steps article>.process-step{font-size:82px}.process-reference .steps h3{min-height:47px;font-size:20px;margin-top:19px}.process-reference .steps p{font-size:14px;max-width:270px}.process-reference .process-note{flex-direction:row;margin-top:40px;text-align:center}}
+@media(max-width:480px){.process.process-reference{padding:52px 6px}.process-reference h2{font-size:32px;letter-spacing:-1px}.process-reference .steps{grid-template-columns:1fr;row-gap:27px;margin-top:36px}.process-reference .steps article{border-left:0;border-bottom:1px solid #dce1e4;padding:0 0 26px}.process-reference .steps article:last-child{border-bottom:0;padding-bottom:0}.process-reference .steps article>.process-step{font-size:82px}.process-reference .steps h3{min-height:0;font-size:21px;margin:17px 0 10px}.process-reference .steps p{max-width:310px;font-size:15px}.process-reference .process-note{font-size:13px;display:block;margin-top:34px}.process-reference .process-note a{display:table;margin:7px auto 0}}
